@@ -1,4 +1,4 @@
- # Java:DSA Progress
+# Java:DSA Progress
 
 1. [Bodmas Rule](#day1)
 2. [Type Casting, Variables rules](#day2)
@@ -11,6 +11,8 @@
 9. [Time complexity](#day9)
 10. [Arrays](#day10)
 11. [2D-Arrays](#day11)
+12. [String](#day12)
+12.  [Bit Manipulation](#day13)
 
 ## Day1: 
 ### Bodmas Rule
@@ -109,20 +111,43 @@
           -print column wise
           -print row wise
           -Print row zig 
-          
+
+## Day12:          
+### String
+          String is a built-in class available in java. 
+          - A string is a collection of characters. 
+          -Simplest method for creating a string is String str1=”Java 
+          program”; 
+          - Variable of type object are called as reference. 
+          -String object is referred to as a literal. 
+          - References are used for holding or pointing objects. 
+          - String literal is taken in “ “. 
+          - Keyword new is taken to create an object in heap. 
+          - Constructors are methods or functions used for creating string 
+object.
+
+### String methods:
+           -str.charAt(int index): to find the particular character present 
+on the index given. 
+             -toCharArray() : Convert String to char
+             
+
+### problems 
+       -Toggle char
+       -Is Palindrome
+       -Reverse the string
+
+
+## Day13:
+### Bit Manipulation
+                 -& (Bit wise and) ->If both are true then only it is true
+                 -| (Bit wise or) ->If any one is true only it is true
+                 -& (Bit wise x-or) ->If both are same then it is flase
+
+                 -<< (Left shift)  =n*2^b
+                 ->>(right shift)   =n/2^b
            
-
-
-
-       
-
-              
-
-
-
-
-
-    
-
-
-
+### problems  
+               -Even odd
+               -swap without thired variable
+               -Finf Unique from array elements 
